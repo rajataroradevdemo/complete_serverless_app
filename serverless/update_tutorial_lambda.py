@@ -31,5 +31,5 @@ def lambda_handler(event, context):
 
    return {
        'statusCode': response['ResponseMetadata']['HTTPStatusCode'],
-       'body': 'Record ' +  context.aws_request_id + ' added'
+       'body': 'Record ' +  context.aws_request_id + ' updated'
    }
